@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="header"><h1>Make your URL</h1></header>
+<main>
+    <div class="parent">
+
+        <p>hello, on this page you can use a program that can handle the length of your URL</p>
+        <form class="tabelle" th:method="post" th:action="@{/shorter}" th:object="${urls}">
+            <label for="longUrl" > your URL </label>
+            <input type="text" th:field="*{longUrl}" id="longUrl">
+            <br>
+            <p>you can set the name of the short link yourself</p>
+            <label for="shortUrl" > text for your URL </label>
+            <input type="text" th:field="*{shortUrl}" id="shortUrl">
+            <input type="submit" value="GO">
+        </form>
+    </div>
+    </div>
+    </div>
+</main>
+</body>
+</html>

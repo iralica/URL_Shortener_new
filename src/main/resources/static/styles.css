@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200;1,400&family=Splash&family=The+Nautigal:wght@700&display=swap');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    background-image: url('https://www.digitoren.de/wp-content/uploads/2022/08/background-g8ab786d77_1280-1080x675.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: inline-block;
+}
+
+.header, h1{
+    width: 100%;
+    height: 10%;
+    font-size: 160px;
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.parent{
+    height: 60%;
+    width: 80%;
+    background-color: rgba(255,255,255,.5);
+    font-size: 20px;
+    text-align: left;
+    padding: 60px;
+    font-family: 'Source Serif Pro', serif;
+    box-shadow: 3px 3px 10px 5px rgb(50 44 44);
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    overflow: hidden;
+    margin-block: 40px;
+}
+
+.about, h3{
+    height: 20%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'The Nautigal', cursive;
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+}
+
+.tabelle{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(255,255,255,.5);
+    font-size: 20px;
+    font-family: 'Source Serif Pro', serif;
+    padding: 10px;
+    border: 2cms;
+    border-color: black;
+    box-shadow: 3px 3px 10px 5px rgb(50, 44, 44);
+    margin: auto;
+}
+
+.urlstabelle{
+    width: 1000px;
+    height: 300px;
+    background-color: rgba(255,255,255,.5);
+    font-size: 20px;
+    font-family: 'Source Serif Pro', serif;
+    padding: 25px;
+    border: 2cms;
+    border-color: black;
+    box-shadow: 3px 3px 10px 5px rgb(50, 44, 44);
+    text-align: center;
+}

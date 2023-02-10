@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="header"><h1>This is your URL</h1></header>
+
+<main>
+    <div class="about">
+        <p>Long</p>
+
+        <a th:href="@{{link}(link=${longUrl})}">
+            <p th:text="${longUrl}"></p>
+        </a>
+
+        <p>Short</p>
+        <a th:href="@{/guest/{link}(link=${shortUrl})}">
+            <p th:text="${shortUrl}"></p>
+        </a>
+    </div>
+
+</main>
+
+</body>
+
+</html>
